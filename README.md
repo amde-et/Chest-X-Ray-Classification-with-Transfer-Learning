@@ -40,13 +40,9 @@ The model architecture is based on a pre-trained convolutional neural network (C
    git clone https://github.com/amed-et/Chest-X-Ray-Classification.git
    ```
 
-2. Install dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Explore the provided Jupyter notebook:
+2. Explore the provided Jupyter notebook:
 
    ```bash
    jupyter notebook notebooks/Chest_XRay_Classification.ipynb
