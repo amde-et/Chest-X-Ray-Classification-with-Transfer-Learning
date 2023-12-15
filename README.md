@@ -1,17 +1,70 @@
-# Chest-X-Ray-Classification-with-Transfer-Learning
-Passion Project.
-Chest X-Ray Classification with Transfer Learning
+# Chest X-Ray Classification with Transfer Learning
 
-Project Image
 
-Overview
 
-This repository contains code for classifying chest X-rays using transfer learning. Transfer learning involves leveraging pre-trained models to improve the performance of a model on a specific task, even when limited labeled data is available.
+## Overview
 
-Dataset
+Welcome to the Chest X-Ray Classification with Transfer Learning project! This repository contains code for classifying chest X-rays using transfer learning. Transfer learning is employed to leverage pre-trained models, enhancing the performance of the model on a specific task, particularly when there is limited labeled data available.
 
-The dataset used for this project is Chest X-Ray Images (Pneumonia) from keggle. It consists of 500+ chest X-ray images labeled with 5  different classes.
+## Dataset
 
-Model Architecture
+The dataset utilized for this project is the Chest X-Ray Images (Pneumonia) sourced from Kaggle. It comprises over 500 chest X-ray images, annotated with five different classes.
 
-The model architecture is based on pre-trained model architecture, a well-established convolutional neural network (CNN) commonly used in medical image classification tasks. The top layers of the pre-trained model were removed, and new fully connected layers were added to adapt the model to the specific chest X-ray classification task.
+## Model Architecture
+
+The model architecture is based on a pre-trained convolutional neural network (CNN) commonly employed in medical image classification tasks. The top layers of the pre-trained model were removed, and new fully connected layers were added to tailor the model to the specific chest X-ray classification task.
+
+## Project Structure
+
+```
+|-- data/
+|   |-- chest_xray/
+|       |-- train/
+|       |-- test/
+|       |-- val/
+|-- notebooks/
+|   |-- Chest_XRay_Classification.ipynb
+|-- src/
+|   |-- data_preprocessing.py
+|   |-- model.py
+|-- .gitignore
+|-- README.md
+|-- requirements.txt
+```
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/amed-et/Chest-X-Ray-Classification.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Explore the provided Jupyter notebook:
+
+   ```bash
+   jupyter notebook notebooks/Chest_XRay_Classification.ipynb
+   ```
+
+## Usage
+
+Adjust the notebook and scripts to suit your specific use case. Experiment with hyperparameters, try different pre-trained models, and fine-tune the network based on your dataset.
+
+## Acknowledgments
+
+- Kaggle for providing the Chest X-Ray Images (Pneumonia) dataset.
+- 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+ 
+---
+
+**Author:** Amdebirhan Abebe
